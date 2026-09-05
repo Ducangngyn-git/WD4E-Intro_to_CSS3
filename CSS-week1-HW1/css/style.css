@@ -1,70 +1,83 @@
-/* Bước 3: Định dạng thẻ body (Nền xám nhạt hiện đại, tạo lề xung quanh) */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 100%;
-    background-color: #f8fafc;
-    margin: 0;
-    padding: 20px;
+    background-color: #f2f5f3;
+    color: #2d3748;
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 15px;
 }
 
-/* Bước 4: Định dạng thẻ header (Nền trắng sáng, có khoảng đệm thoáng) */
 header {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
+    background-color: #e2ece9;
+    padding: 25px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
-/* Bước 5: Định dạng thẻ nav (Chuyển sang nền sáng để chữ liên kết nổi bật, dễ đọc) */
 nav {
-    background-color: #e2e8f0;
-    padding: 12px;
-    border-radius: 6px;
-    margin-bottom: 15px;
+    background-color: #1b4332;
+    padding: 14px 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
 }
 
-/* Bước 6: Định dạng thẻ main (Nền trắng nổi bật nội dung) */
 main {
     background-color: #ffffff;
-    font-size: 16px;
-    padding: 20px;
-    margin-top: 15px;
-    border-radius: 8px;
+    font-size: 17px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-/* Bước 7: Định dạng thẻ footer (Nền xám nhẹ chân trang) */
 footer {
-    background-color: #e2e8f0;
-    padding: 15px;
-    margin-top: 20px;
+    background-color: #2d6a4f;
+    padding: 18px 20px;
     border-radius: 8px;
+    margin-top: 25px;
+    text-align: center;
 }
 
-/* Bước 8: Định dạng thẻ li (Kiểu hiển thị và chiều rộng) */
 li {
     display: inline-block;
-    width: 160px;
+    width: 180px;
+    text-align: center;
 }
 
-/* Bước 9: Định dạng thẻ h1 (Căn giữa, màu xám đen đậm thanh lịch) */
 h1 {
     text-align: center;
-    font-family: 'Segoe UI', sans-serif;
-    color: #0f172a;
+    font-family: 'Georgia', 'Segoe UI', serif;
+    color: #081c15;
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 0.5px;
 }
 
-/* Bước 10: Định dạng thẻ p (Chiều cao dòng dễ đọc) */
 p {
-    line-height: 1.6;
-    color: #334155;
+    line-height: 1.8;
+    margin-bottom: 16px;
 }
 
-/* Phong cách bổ sung: Làm đẹp đường dẫn liên kết (thẻ a) */
-a {
-    color: #2563eb;
+nav a {
+    color: #ffffff !important;
     text-decoration: none;
     font-weight: 600;
+    font-size: 15px;
 }
 
-a:hover {
+nav a:hover {
+    color: #b7e4c7 !important;
+}
+
+main a {
+    color: #2d6a4f;
+    font-weight: 600;
     text-decoration: underline;
+}
+
+footer p {
+    color: #e2ece9;
+    margin: 0;
+    font-size: 14px;
 }
